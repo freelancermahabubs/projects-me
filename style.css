@@ -1,0 +1,214 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.banner{
+  background-image: url('./images/banner/banner3.png');
+  text-align: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 130px;
+  height: 100%;
+  min-height: 85Vh;
+  width: 15;
+}
+.banner-container{
+  margin-left: 845px;
+  margin-right: 200px;
+  padding-top: 215px;
+}
+.banner-container .banner-title{
+  color: #fafafa;
+  font-size: 65px;
+  font-weight: 700px;
+  margin-bottom: 25px;
+  line-height: 76px;
+  line-height: 100%;
+  font-style: bold;
+}
+.banner-container .banner-description{
+  color: rgb(224, 214, 214);
+  font-size: 25px;
+  font-weight: 100px;
+  margin-bottom: 25px;
+  line-height: 30px;
+  line-height: 100%;
+}
+.btn-primary{
+  color: rgb(5, 0, 0);
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+  height: 60px;
+  padding: 18px 25px;
+  border: 1px solid rgb(255, 255, 255);
+  line-height: 25px;
+  line-height: 100%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(2, 2, 2);
+  cursor: pointer;
+}
+main{
+  padding: 0 208px;
+}
+.failures-container{
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+  gap: 85px;
+}
+.failures-details{
+  padding-top: 125px;
+}
+.failures-details li{
+  list-style: none;
+  font-size: 16px;
+}
+.failures-details ul li::before{
+  content: '\274\0020';
+  color: rgba(11, 230, 11, 0.897);
+}
+.failures-title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 25px;
+}
+.failures-description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.plans-container{
+  text-align: center;
+  margin-bottom: 130px;
+  cursor: pointer;
+}
+.plans-types{
+  display: flex;
+  gap: 84px;
+  justify-content: center;
+}
+.plans-items img{
+  margin-bottom: 22px;
+}
+.plans-title{
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: rgb(59, 30, 223);
+}
+.plans-sub-title{
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  line-height: 100%;
+}
+.plans-description{
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(134, 124, 124);
+  margin-top: 15px;
+}
+/* styles gradient area  */
+.gradient-section{
+  background-image: url('./images/watch.png');
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.gradient-content{
+  position: relative;
+  top: -215px;
+  right: -68px;
+  width: 250px;
+}
+.gradient-title{
+  margin-bottom: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.information{
+  background-color: rgb(24, 1, 1);
+  height: 560px;
+  margin-top: 90px;
+}
+.contact-details{
+ margin-top: 130px;
+ margin-left: 200px;
+}
+.contact-container{
+  display: flex;
+  gap: 330px;
+  align-items: center;
+}
+.contact-title{
+  font-weight: 800;
+  font-size: 45px;
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+.contact-description{
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(228, 228, 225);
+  margin-bottom: 18px;
+}
+.contact-email{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fafafa;
+  margin-bottom: 12px;
+}
+.contact-phone{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fafafa;
+  margin-bottom: 18px;
+}
+.contact-details a{
+  margin-right: 20px;
+}
+.subscription-container{
+  margin-right: 250px;
+}
+.subscription-title{
+  font-size: 35px;
+  font-size: 800;
+  color: #fafafa;
+  margin-bottom: 15px;
+}
+.subscription-container form input[type="text"]{
+  width: 300px;
+  height: 55px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #151414;
+  border: 1px solid white;
+  color: white;
+  padding-left: 20px;
+}
+.subscription-container form input ::placeholder{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 25px;
+}
+.subscription-container form input[type="submit"]{
+  height: 65px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 35px;
+  background-color: #eb0000;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 3px 3px gray;
+}
+.subscription-container form input[type="submit"]:hover{
+  transform: scale(1.1);
+  background-color: rgb(25, 0, 255);
+}
